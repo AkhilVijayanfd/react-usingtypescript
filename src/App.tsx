@@ -3,6 +3,7 @@ import './App.css';
 import { ToggleButton } from './ToggleButton';
 import { UserForm } from './UserForm';
 import { Welcome } from './Welcome';
+import { LoggedIn } from './LoggedIn';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Welcome name="Akhil Vijayan" />
             <UserForm />
             <ToggleButton />
+            <LoggedIn />
       </header>
     </div>
   );
