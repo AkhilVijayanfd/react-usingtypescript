@@ -8,7 +8,7 @@ export function ToggleButton(){
             type="checkbox"
             checked={checked}
             onClick={(event: any) => toggleButton(event.target.checked)} />
-            Confirm you are logged in
+            Confirm your data is correct
         </div>
 
     );
